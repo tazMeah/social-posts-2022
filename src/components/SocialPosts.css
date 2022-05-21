@@ -1,3 +1,4 @@
+
 .SocialPosts h1 {
     font-family: 'Homemade Apple', cursive;
     text-align: center;
@@ -9,4 +10,12 @@
     background-color: #03a9f4;
     color: white;
     width: 100%;
+}
+
+.SocialPosts .postlist {
+    background: white;
+    padding: 40px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 }

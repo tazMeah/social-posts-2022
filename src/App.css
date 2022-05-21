@@ -6,10 +6,13 @@ body {
   margin: 0 auto;
   padding: 5px;
   font-family: 'Dosis', sans-serif;
+  font-size: 1.25em;
 }
 button, [type="button"] {
   border-radius: 5px;
   padding: 10px;
   border: 1px solid black;
   cursor: pointer;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
 }

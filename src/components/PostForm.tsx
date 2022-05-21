@@ -19,9 +19,9 @@ export default function PostForm({onSubmit, onClose} : Props) {
                 onClose();
                 }}>
                 <label htmlFor="title">Title</label>
-                <input id="title" type="text" onChange={(e) => {setTitle(e.target.value)}}/>
+                <input id="title" type="text" onChange={(e) => {setTitle(e.target.value)}} required/>
                 <label htmlFor="thought">Thought</label>
-                <textarea id="thought"  rows={10} onChange={(e) => {setThought(e.target.value)}}></textarea>
+                <textarea id="thought"  rows={10} onChange={(e) => {setThought(e.target.value)}} required></textarea>
                 <input type="submit" value="Add Post" />
                 <i className="fa-solid fa-circle-xmark" onClick={onClose}></i>
             </form>

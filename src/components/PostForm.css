@@ -21,7 +21,7 @@
     row-gap: 5px;
     border-radius: 5px;
     height: 50%;
-
+    font-size: 1.2em;
 }
 
 .PostForm .fa-circle-xmark {
@@ -36,6 +36,8 @@
     resize: none;
     padding: 10px;
     border-radius: 5px;
+    font-family: Dosis;
+    font-size: .75em;
 }
 
 .PostForm [type='submit'] {

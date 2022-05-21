@@ -30,7 +30,9 @@ export default function SocialPosts() {
         <div className="SocialPosts">
             <h1>My Thoughts</h1>
             <button onClick={() => {setShowForm(true)}}>New Thought</button>
-            {posts.map((post, index) => <PostInList onDelete={() => {deletePost(index)}} post={post} key={index}/>) }
+            <div className="postlist">
+                {posts.map((post, index) => <PostInList onDelete={() => {deletePost(index)}} post={post} key={index}/>) }
+            </div>
             {showForm && <PostForm onClose={() => {setShowForm(false)}} onSubmit={addPost}/>}
         </div>
     )

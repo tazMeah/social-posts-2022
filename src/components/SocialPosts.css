@@ -1,0 +1,12 @@
+.SocialPosts h1 {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    color: #03a9f4;
+    font-size: 24px;
+}
+
+.SocialPosts button {
+    background-color: #03a9f4;
+    color: white;
+    width: 100%;
+}

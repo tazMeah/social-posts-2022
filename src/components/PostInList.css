@@ -1,0 +1,11 @@
+.PostInList {
+    border-bottom: #ccc 1px solid;
+    position: relative;
+}
+
+.PostInList .fa-trash {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
